@@ -7,6 +7,15 @@
     <DSP>Microsoft.Data.Tools.Schema.Sql.Sql160DatabaseSchemaProvider</DSP>
     <ModelCollation>1033, CI</ModelCollation>
   </PropertyGroup>
+  <ItemGroup>
+    <Build Remove="tSQLt\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Remove="Tests\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Remove="Assemblies\tSQLtCLR.sql" />
+  </ItemGroup>
   <Target Name="BeforeBuild">
     <Delete Files="$(BaseIntermediateOutputPath)\project.assets.json" />
   </Target>
