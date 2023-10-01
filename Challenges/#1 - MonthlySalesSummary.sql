@@ -5,13 +5,12 @@
 -- Specifications:
 
 -- Source Tables:
-
 -- Sales.Orders
 -- Sales.OrderLines
 -- Sales.Customers
 -- Application.Cities
--- Data Points:
 
+-- Data Points:
 -- YearMonth: This should be in the format YYYY-MM.
 -- CityName: Name of the city where our customer is based.
 -- TotalSalesValue: The sum of all sales values (including all line items) for that month and city.
@@ -19,9 +18,11 @@
 
 -- Grouping:
 -- The data should be grouped by YearMonth and CityName.
--- Ordering:
 
+-- Ordering:
 -- Results should be ordered by YearMonth in ascending order, then by TotalSalesValue in descending order.
+
+-- Solution: WideWorldImporters\Challenges\Views\MonthlySalesSummary.sql
 
 SELECT * FROM Challenges.MonthlySalesSummary 
 ORDER BY YearMonth ASC, TotalSalesValue DESC
