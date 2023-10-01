@@ -2,7 +2,7 @@
 <Project DefaultTargets="Build">
   <Sdk Name="Microsoft.Build.Sql" Version="0.1.12-preview" />
   <PropertyGroup>
-    <Name>WideWorldImportersDevelopment</Name>
+    <Name>WideWorldImporters</Name>
     <ProjectGuid>{B31D14D4-7463-4845-93B7-1A1DD26CC2C8}</ProjectGuid>
     <DSP>Microsoft.Data.Tools.Schema.Sql.Sql160DatabaseSchemaProvider</DSP>
     <ModelCollation>1033, CI</ModelCollation>
