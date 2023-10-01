@@ -3,10 +3,3 @@
 # Ignore build outputs
 **/bin/
 **/obj/
-
-# Ignore tSQLt files
-/tSQLt_V1.0.8083.3529/
-**/tSQLt/
-tSQLt.sql
-tSQLt.TestClass.sql
-tSQLtCLR.sql
