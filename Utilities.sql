@@ -1,6 +1,3 @@
--- Run all tSQLt tests
-EXEC tSQLt.RunAll;
-
 -- Column descriptions
 SELECT 
     OBJECT_NAME(ep.major_id) AS ObjectName

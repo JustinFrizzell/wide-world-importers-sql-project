@@ -1,3 +1,3 @@
 # Introduction
 
-`sqlfluff fix WideWorldImportersDevelopment\Tests\ WideWorldImportersDevelopment\Challenges\`
+`sqlfluff fix WideWorldImporters\Challenges\ Utilities.sql Challenges\`
