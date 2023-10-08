@@ -12,3 +12,6 @@ INNER JOIN
 WHERE 
     ep.name = 'Description'
 ORDER BY ObjectName
+
+-- To apply SQLFluff formatting:
+-- In terminal run - `sqlfluff fix WideWorldImporters\Challenges\ Utilities.sql Challenges\`
