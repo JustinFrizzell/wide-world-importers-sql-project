@@ -1,0 +1,25 @@
+# https://aka.ms/yaml
+
+trigger:
+- main
+
+pool:
+  name: 'Default'
+  demands:
+  - agent.name -equals DESKTOP
+
+steps:
+- task: VSBuild@1
+  inputs:
+    solution: '**\*.sqlproj'
+- task: CopyFiles@2
+  inputs:
+    SourceFolder: '$(Agent.BuildDirectory)\s'
+    Contents: '**'
+    TargetFolder: '$(Build.ArtifactStagingDirectory)'
+
+- task: PublishBuildArtifacts@1
+  inputs:
+    PathtoPublish: '$(Build.ArtifactStagingDirectory)'
+    ArtifactName: 'wide-world-imports'
+    publishLocation: 'Container'
