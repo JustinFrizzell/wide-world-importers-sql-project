@@ -1,4 +1,4 @@
-CREATE FUNCTION dbo.ufn_DaysSinceLastInvoice (@InvoiceID INT)
+CREATE FUNCTION Challenges.ufn_DaysSinceLastInvoice (@InvoiceID INT)
 RETURNS TABLE
 AS
 RETURN 
