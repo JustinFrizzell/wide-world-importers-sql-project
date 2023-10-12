@@ -9,7 +9,7 @@ A SQL project based on the [WideWorldImporters](https://learn.microsoft.com/en-u
 - [Challenges.StockItemSalesDistribution](https://github.com/JustinFrizzell/wide-world-importers-sql-project/blob/main/WideWorldImporters/Challenges/Views/StockItemSalesDistribution.sql) - A view showing the cumulative distribution of revenue by product
 - [Challenges.ufn_GetTotalOrderWeight](https://github.com/JustinFrizzell/wide-world-importers-sql-project/blob/main/WideWorldImporters/Challenges/Functions/ufn_GetTotalOrderWeight.sql) - A scalar function returning the total weight of a given OrderID
 - [Challenges.ufn_DaysSinceLastInvoice](https://github.com/JustinFrizzell/wide-world-importers-sql-project/blob/main/WideWorldImporters/Challenges/Functions/ufn_DaysSinceLastInvoice.sql) - A tabular function returning the date of the previous invoice, current invoice and the number of days since the last invoice for an InvoiceID
-- [Challenges.usp_PurgeCustomerData](https://github.com/JustinFrizzell/wide-world-importers-sql-project/blob/main/WideWorldImporters/Challenges/StoredProcedures/usp_PurgeCustomerData.sql) - A stored procedure to remoove customer data from the database after a GDPR request
+- [Challenges.usp_PurgeCustomerData](https://github.com/JustinFrizzell/wide-world-importers-sql-project/blob/main/WideWorldImporters/Challenges/StoredProcedures/usp_PurgeCustomerData.sql) - A stored procedure to remove customer data from the database after a GDPR request
 
 The project has been built into a `.dacpac` file for easy deployment using either SQL Server Data Tools (SSDT) or Azure Data Studio (see Installation).
 
